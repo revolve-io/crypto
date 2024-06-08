@@ -386,6 +386,13 @@ body.active { overflow: hidden; }
   transition-duration: 0.5s;
 }
 
+.signup {
+  border: 1px solid blue;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 10px;
+}
+
 .navbar-item:not(:last-child) { border-block-end: 1px solid var(--white_30); }
 
 .navbar-link {
@@ -869,6 +876,10 @@ address.footer-contact-link { max-width: 30ch; }
 
   .hero-text { --fs-5: 2rem; }
 
+  .signup {
+    font-size: 12px;
+  }
+
 }
 
 
@@ -1139,6 +1150,8 @@ address.footer-contact-link { max-width: 30ch; }
   .header.active { top: -64px; }
 
   .navbar-link { font-size: unset; }
+
+  
 
 
 
